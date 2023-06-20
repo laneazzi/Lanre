@@ -1,2 +1,2 @@
 **Lanre's Portfolio**
-_You can call me Elijah_# Lanre
+_You can call me Elijah_
