@@ -1,6 +1,6 @@
 .container {
   height: 80vh;
-  width: 6em;
+  width: 6rem;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -10,6 +10,22 @@
   img {
     width: 100%;
     height: 100%;
+  }
+}
+.mobile {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+    height: 3rem;
+    width: 80vw;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: row;
   }
 }
 

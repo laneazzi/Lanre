@@ -30,7 +30,7 @@ function App() {
       };
 
   return (
-    <div style={{ display: "flex", gap: "90px" }}>
+    <div className="maincontainer">
       {/**<div className="toggle">
         <input type="checkbox" />
         <label> &nbsp; &nbsp;Toggle Dark Mode</label>
@@ -43,15 +43,15 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>*/}
-      <div style={{ textAlign: "left" }}>
+      <div className="title">
         <Picture />
-        <h1 style={{ fontWeight: "600", lineHeight: "1.2", marginBottom: "0" }}>
+        <h1 style={{ fontWeight: "600", lineHeight: "1.2", marginBottom: "0" }} className="name">
           <span style={textStyle}>
             Olanrewaju Ayedun <br />
             aka Elijah.
           </span>
         </h1>
-        <h3 style={textStyle}>
+        <h3 style={textStyle} className="description">
           I am a Fullstack Web Developer with extensive knowledge and years of
           valuable expertise. I also love learning new things.
         </h3>
