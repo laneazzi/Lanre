@@ -15,12 +15,14 @@ function App() {
 
   const textStyle = isLightModeEnabled
     ? {
+        maxWidth: "600px",
         background:
           "-webkit-linear-gradient(135deg, #8a2387, #e94057, #f27121)",
         WebkitBackgroundClip: "text",
         WebkitTextFillColor: "transparent",
       }
     : {
+        maxWidth: "600px",
         background:
           "-webkit-linear-gradient(135deg, #a6ffcb, #12d8fa, #1fa2ff)",
         WebkitBackgroundClip: "text",
