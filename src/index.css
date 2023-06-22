@@ -6,12 +6,12 @@
   color: rgba(255, 255, 255, 0.87);
   background: #41295a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to top,
+    to left,
     #2f0743,
     #41295a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to top,
+    to left,
     #2f0743,
     #41295a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -47,12 +47,13 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  background: -webkit-linear-gradient(135deg, #a6ffcb, #12d8fa, #1fa2ff);
+  color: #0e2760;
+  border: none;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -69,12 +70,12 @@ button:focus-visible {
     color: #213547;
     background: #83a4d4; /* fallback for old browsers */
     background: -webkit-linear-gradient(
-      to top,
+      to left,
       #b6fbff,
       #83a4d4
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
-      to top,
+      to left,
       #b6fbff,
       #83a4d4
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -83,6 +84,14 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background: -webkit-linear-gradient(135deg, #642b73, #c6426e);
+    color: #f9f9f9;
+    border: none;
+  }
+
+  svg {
+    path {
+      fill: #0e2760;
+    }
   }
 }

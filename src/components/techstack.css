@@ -1,0 +1,23 @@
+.container {
+  height: 80vh;
+  width: 6em;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
