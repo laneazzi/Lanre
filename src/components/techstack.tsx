@@ -48,7 +48,7 @@ function TechStack() {
       if (container) {
         if (!isMobile) {
           if (
-            container.scrollLeft + container.offsetHeight >=
+            container.scrollTop + container.offsetHeight >=
             container.scrollHeight
           ) {
             container.scrollTop = 0;
