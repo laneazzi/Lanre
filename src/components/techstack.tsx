@@ -45,14 +45,28 @@ function TechStack() {
     let animationFrameId: number;
 
     const scrollDiv = () => {
-      if (
-        container &&
-        container.scrollTop + container.offsetHeight >= container.scrollHeight
-      ) {
-        container.scrollTop = 0;
-      } else if (container) {
-        container.scrollTop += 1;
+      if (container) {
+        if (!isMobile) {
+          if (
+            container.scrollLeft + container.offsetHeight >=
+            container.scrollHeight
+          ) {
+            container.scrollTop = 0;
+          } else {
+            container.scrollTop += 1;
+          }
+        } else {
+          if (
+            container.scrollLeft + container.offsetWidth >=
+            container.scrollWidth
+          ) {
+            container.scrollLeft = 0;
+          } else {
+            container.scrollLeft += 1;
+          }
+        }
       }
+
       animationFrameId = requestAnimationFrame(scrollDiv);
     };
 
