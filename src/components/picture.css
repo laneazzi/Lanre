@@ -1,7 +1,6 @@
 .picture {
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
-  background-image: url("https://images2.imgbox.com/ac/25/Z2muVxmf_o.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
