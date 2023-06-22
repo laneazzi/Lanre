@@ -12,6 +12,7 @@
 
 .title {
   text-align: left;
+  max-width: 600px;
 }
 
 .name {
@@ -27,7 +28,8 @@
     gap: 30px;
   }
   .title {
-    text-align: justify;
+    text-align: center;
+    max-width: 400px;
   }
   .name {
     font-size: 30px;
