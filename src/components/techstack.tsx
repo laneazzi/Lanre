@@ -29,6 +29,7 @@ function TechStack() {
         borderBottom: isMobile ? "none" : "2px solid #c6426e",
         background:
           "-webkit-linear-gradient(135deg, #8a2387, #e94057, #f27121)",
+        backgroundClip: "text",
         WebkitBackgroundClip: "text",
         WebkitTextFillColor: "transparent",
       }
@@ -39,6 +40,7 @@ function TechStack() {
         borderBottom: isMobile ? "none" : "2px solid #12d8fa",
         background:
           "-webkit-linear-gradient(135deg, #a6ffcb, #12d8fa, #1fa2ff)",
+        backgroundClip: "text",
         WebkitBackgroundClip: "text",
         WebkitTextFillColor: "transparent",
       };

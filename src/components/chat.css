@@ -1,0 +1,63 @@
+.formbold-mb-5 {
+  margin-bottom: 10px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+}
+.formbold-form-label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1fa2ff;
+  margin-bottom: 2px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  background: rgb(242, 242, 242) !important;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #1fa2ff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 7px 16px;
+  border: none;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  float: right;
+  background: -webkit-linear-gradient(135deg, #12d8fa, #1fa2ff);
+  background: linear-gradient(135deg, #12d8fa, #1fa2ff);
+}
+.formbold-btn:hover {
+  filter: drop-shadow(0 0 0.2em #646cff77);
+}
+
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}

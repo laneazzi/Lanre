@@ -1,3 +1,7 @@
+import { useState } from "react";
+
+import Chat from "../components/chat";
+import Modal from "../components/modal";
 import homeLogo from "../assets/home.svg";
 import githubLogo from "../assets/github.svg";
 import resumeLogo from "../assets/resume.svg";
@@ -18,8 +22,23 @@ const Navbar = () => {
     "(prefers-color-scheme: light)"
   ).matches;
 
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <nav className="navbar">
+      {isModalOpen && (
+        <Modal onClose={handleCloseModal}>
+          <Chat />
+        </Modal>
+      )}
       <ul className="list">
         <li>
           <a
@@ -63,7 +82,12 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="/" title="Contact me">
+          <a
+            title="Contact me"
+            role="button"
+            style={{ cursor: "pointer" }}
+            onClick={handleOpenModal}
+          >
             <img
               src={isLightModeEnabled ? messageLogo : messageLightLogo}
               className="navbar-icons"
