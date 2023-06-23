@@ -29,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-top: unset;
+    margin-top: 5.5rem;
   }
   .title {
     text-align: center;

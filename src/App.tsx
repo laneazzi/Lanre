@@ -3,6 +3,7 @@ import TechStack from "./components/techstack";
 //import Navbar from "./components/constants/navbar";
 
 import "./App.css";
+import Navbar from "./constants/navbar";
 
 function App() {
   const isLightModeEnabled = window.matchMedia(
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <div className="maincontainer">
         {/**<div className="toggle">
       <input type="checkbox" />
