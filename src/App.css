@@ -22,6 +22,9 @@
   font-size: 19px;
 }
 @media (max-width: 1024px) {
+  #root {
+    padding: 0;
+  }
   .maincontainer {
     flex-direction: column;
     align-items: center;
