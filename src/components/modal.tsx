@@ -17,6 +17,7 @@ const Modal: React.FC<{ onClose: () => void; children: ReactNode }> = ({
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
+            height: "35px",
           }}
         >
           <h3>Contact Me</h3>

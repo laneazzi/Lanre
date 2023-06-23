@@ -41,3 +41,10 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1024px) {
+  .modal {
+    transform: scale(0.9);
+    padding: 0 20px;
+  }
+}

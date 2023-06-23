@@ -56,8 +56,8 @@
   filter: drop-shadow(0 0 0.2em #646cff77);
 }
 
-@media (min-width: 540px) {
-  .sm\:w-half {
-    width: 50%;
+@media (max-width: 1024px) {
+  .formbold-main-wrapper {
+    transform: scale(1);
   }
 }
