@@ -26,6 +26,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    margin-top: unset;
   }
   .title {
     text-align: center;

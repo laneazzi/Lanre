@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://pdfhost.io/v/dTlH8cRRi_Software_Engineer_Web_Developer"
+            href="https://drive.google.com/file/d/1_Hetf-sf1k8w2_65x1Q60Ug1wgY9ZWRh/view?usp=drive_link"
             target="_blank"
             title="My Resume"
           >
