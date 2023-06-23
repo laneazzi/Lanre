@@ -92,7 +92,7 @@ function TechStack() {
         <img src={""} className="image-scroll" />
         <img src={TSLogo} className="image-scroll" />
         <img src={sqlLogo} className="image-scroll" />
-        <img src={htmlLogo} className="image-scroll" />
+        <img src={htmlLogo} className="image-scrollhtml" />
         <img src={scssLogo} className="image-scroll" />
         <img src={reactLogo} className="image-scroll" />
         <img src={reduxLogo} className="image-scroll" />
