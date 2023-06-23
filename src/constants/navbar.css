@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  column-gap: 10px;
+  svg {
+      fill: #83a4d4;
+    
+  }
+}
+
+.navbar-icons {
+  width: 35px;
+  height: 35px;
+  &:hover {
+    transition: all ease-in-out 0.4s;
+    transform: scale(1.15);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+}

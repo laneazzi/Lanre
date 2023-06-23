@@ -1,5 +1,6 @@
 import Picture from "./components/picture";
 import TechStack from "./components/techstack";
+//import Navbar from "./components/constants/navbar";
 
 import "./App.css";
 
@@ -25,43 +26,45 @@ function App() {
       };
 
   return (
-    <div className="maincontainer">
-      {/**<div className="toggle">
-        <input type="checkbox" />
-        <label> &nbsp; &nbsp;Toggle Dark Mode</label>
-      </div> */}
-      <div className="title">
-        <Picture />
-        <h1
-          style={{ fontWeight: "600", lineHeight: "1.2", marginBottom: "0" }}
-          className="name"
-        >
-          <span style={textStyle}>
-            Olanrewaju Ayedun <br />
-            aka Elijah.
-          </span>
-        </h1>
-        <h3 style={textStyle} className="description">
-          I am a Fullstack Web Developer with extensive knowledge and years of
-          valuable expertise. I also love learning new things.
-        </h3>
-      </div>
-      <div>
-        <TechStack />
-        {/**<div className="card">
-          <button onClick={() => setCount((count) => count + 1)}>
-            Download my resume {count}
-          </button>
+    <>
+      <div className="maincontainer">
+        {/**<div className="toggle">
+      <input type="checkbox" />
+      <label> &nbsp; &nbsp;Toggle Dark Mode</label>
+    </div> */}
+        <div className="title">
+          <Picture />
+          <h1
+            style={{ fontWeight: "600", lineHeight: "1.2", marginBottom: "0" }}
+            className="name"
+          >
+            <span style={textStyle}>
+              Olanrewaju Ayedun <br />
+              aka Elijah.
+            </span>
+          </h1>
+          <h3 style={textStyle} className="description">
+            I am a Fullstack Web Developer with extensive knowledge and years of
+            valuable expertise. I also love learning new things.
+          </h3>
         </div>
-        <iframe
-          src={resume}
-          width={"500px"}
-          height={"500px"}
-          title={"Resume"}
-          style={{ border: "none", borderRadius: "10px" }}
-        /> */}
-      </div>
+        <div>
+          <TechStack />
+          {/**<div className="card">
+      <button onClick={() => setCount((count) => count + 1)}>
+        Download my resume {count}
+      </button>
     </div>
+    <iframe
+      src={resume}
+      width={"500px"}
+      height={"500px"}
+      title={"Resume"}
+      style={{ border: "none", borderRadius: "10px" }}
+    /> */}
+        </div>
+      </div>
+    </>
   );
 }
 

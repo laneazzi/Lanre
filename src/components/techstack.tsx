@@ -88,6 +88,8 @@ function TechStack() {
         Tech Stack
       </h3>
       <div className="container" ref={containerRef}>
+        <img src={""} className="image-scroll" />
+        <img src={""} className="image-scroll" />
         <img src={TSLogo} className="image-scroll" />
         <img src={sqlLogo} className="image-scroll" />
         <img src={htmlLogo} className="image-scroll" />

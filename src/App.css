@@ -8,6 +8,7 @@
 .maincontainer {
   display: flex;
   gap: 90px;
+  margin-top: 5rem;
 }
 
 .title {
