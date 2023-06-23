@@ -63,7 +63,7 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="/contact" title="Contact me">
+          <a href="/" title="Contact me">
             <img
               src={isLightModeEnabled ? messageLogo : messageLightLogo}
               className="navbar-icons"
