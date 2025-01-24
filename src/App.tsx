@@ -48,8 +48,7 @@ function App() {
             </span>
           </h1>
           <h3 style={textStyle} className="description">
-            I am a Fullstack Web Developer with extensive knowledge and years of
-            valuable expertise. I also love learning new things.
+            I love efficiency, productivity and lightheartedness. Let's write cool code while having fun(∩˃o˂∩)♡
           </h3>
         </div>
         <div>
