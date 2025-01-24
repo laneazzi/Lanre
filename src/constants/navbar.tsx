@@ -61,7 +61,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1_Hetf-sf1k8w2_65x1Q60Ug1wgY9ZWRh/view?usp=drive_link"
+            href="https://docs.google.com/document/d/e/2PACX-1vRn8Il3c7M8RXJbcrRO7PTXBSnmYq2Iapic7d4o3IaCkCTq-MNQK5gBuFvQnM1fbUKlU7aZ_wJ5irUC/pub"
             target="_blank"
             title="My resume"
           >
@@ -96,7 +96,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt"
+            href="https://www.grapelaw.com/library/content/the-h1b-visa-transfer-process"
             title="STEM-OPT"
             target="_blank"
           >
