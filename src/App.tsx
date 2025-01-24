@@ -48,7 +48,7 @@ function App() {
             </span>
           </h1>
           <h3 style={textStyle} className="description">
-            I love efficiency, productivity and lightheartedness. Let's write cool code while having fun(∩˃o˂∩)♡. Already on H1B and a transfer is easy ans seamless.
+            I love efficiency, productivity and lightheartedness. Let's write cool code while having fun(∩˃o˂∩)♡. <p> Already on H1B so a transfer is easy and seamless. </p>
           </h3>
         </div>
         <div>
